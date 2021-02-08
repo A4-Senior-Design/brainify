@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14252B0825D1135500FCCFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B0725D1135500FCCFCB /* AppDelegate.swift */; };
+		14252B0A25D1135500FCCFCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B0925D1135500FCCFCB /* SceneDelegate.swift */; };
+		14252B0C25D1135500FCCFCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B0B25D1135500FCCFCB /* ViewController.swift */; };
+		14252B0F25D1135500FCCFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14252B0D25D1135500FCCFCB /* Main.storyboard */; };
+		14252B1125D1135600FCCFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14252B1025D1135600FCCFCB /* Assets.xcassets */; };
+		14252B1425D1135600FCCFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14252B1225D1135600FCCFCB /* LaunchScreen.storyboard */; };
+		14252B1F25D1135600FCCFCB /* Brainify_1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B1E25D1135600FCCFCB /* Brainify_1_1Tests.swift */; };
+		14252B2A25D1135600FCCFCB /* Brainify_1_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B2925D1135600FCCFCB /* Brainify_1_1UITests.swift */; };
+		14252B3B25D11CB900FCCFCB /* custombutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B3A25D11CB900FCCFCB /* custombutton.swift */; };
+		14252B4125D12FA100FCCFCB /* UIButton+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B4025D12FA100FCCFCB /* UIButton+Design.swift */; };
+		14252B4B25D1434F00FCCFCB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B4A25D1434F00FCCFCB /* SignUpViewController.swift */; };
+		14252B5325D1452300FCCFCB /* UIView+design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14252B5225D1452300FCCFCB /* UIView+design.swift */; };
+		1427B1FD25D1991900B06C40 /* UITextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427B1FC25D1991900B06C40 /* UITextField+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14252B1B25D1135600FCCFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14252AFC25D1135500FCCFCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14252B0325D1135500FCCFCB;
+			remoteInfo = "Brainify 1.1";
+		};
+		14252B2625D1135600FCCFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14252AFC25D1135500FCCFCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14252B0325D1135500FCCFCB;
+			remoteInfo = "Brainify 1.1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14252B0425D1135500FCCFCB /* Brainify 1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brainify 1.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14252B0725D1135500FCCFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14252B0925D1135500FCCFCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14252B0B25D1135500FCCFCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14252B0E25D1135500FCCFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14252B1025D1135600FCCFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14252B1325D1135600FCCFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14252B1525D1135600FCCFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14252B1A25D1135600FCCFCB /* Brainify 1.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brainify 1.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14252B1E25D1135600FCCFCB /* Brainify_1_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brainify_1_1Tests.swift; sourceTree = "<group>"; };
+		14252B2025D1135600FCCFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14252B2525D1135600FCCFCB /* Brainify 1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brainify 1.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14252B2925D1135600FCCFCB /* Brainify_1_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brainify_1_1UITests.swift; sourceTree = "<group>"; };
+		14252B2B25D1135600FCCFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14252B3A25D11CB900FCCFCB /* custombutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custombutton.swift; sourceTree = "<group>"; };
+		14252B4025D12FA100FCCFCB /* UIButton+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Design.swift"; sourceTree = "<group>"; };
+		14252B4A25D1434F00FCCFCB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		14252B5225D1452300FCCFCB /* UIView+design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+design.swift"; sourceTree = "<group>"; };
+		1427B1FC25D1991900B06C40 /* UITextField+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14252B0125D1135500FCCFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14252B1725D1135600FCCFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14252B2225D1135600FCCFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14252AFB25D1135500FCCFCB = {
+			isa = PBXGroup;
+			children = (
+				14252B0625D1135500FCCFCB /* Brainify 1.1 */,
+				14252B1D25D1135600FCCFCB /* Brainify 1.1Tests */,
+				14252B2825D1135600FCCFCB /* Brainify 1.1UITests */,
+				14252B0525D1135500FCCFCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14252B0525D1135500FCCFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14252B0425D1135500FCCFCB /* Brainify 1.1.app */,
+				14252B1A25D1135600FCCFCB /* Brainify 1.1Tests.xctest */,
+				14252B2525D1135600FCCFCB /* Brainify 1.1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14252B0625D1135500FCCFCB /* Brainify 1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				14252B4925D142F200FCCFCB /* Controllers */,
+				14252B3F25D12F7D00FCCFCB /* Extension */,
+				14252B0725D1135500FCCFCB /* AppDelegate.swift */,
+				14252B0925D1135500FCCFCB /* SceneDelegate.swift */,
+				14252B0B25D1135500FCCFCB /* ViewController.swift */,
+				14252B0D25D1135500FCCFCB /* Main.storyboard */,
+				14252B1025D1135600FCCFCB /* Assets.xcassets */,
+				14252B1225D1135600FCCFCB /* LaunchScreen.storyboard */,
+				14252B1525D1135600FCCFCB /* Info.plist */,
+				14252B3A25D11CB900FCCFCB /* custombutton.swift */,
+			);
+			path = "Brainify 1.1";
+			sourceTree = "<group>";
+		};
+		14252B1D25D1135600FCCFCB /* Brainify 1.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14252B1E25D1135600FCCFCB /* Brainify_1_1Tests.swift */,
+				14252B2025D1135600FCCFCB /* Info.plist */,
+			);
+			path = "Brainify 1.1Tests";
+			sourceTree = "<group>";
+		};
+		14252B2825D1135600FCCFCB /* Brainify 1.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				14252B2925D1135600FCCFCB /* Brainify_1_1UITests.swift */,
+				14252B2B25D1135600FCCFCB /* Info.plist */,
+			);
+			path = "Brainify 1.1UITests";
+			sourceTree = "<group>";
+		};
+		14252B3F25D12F7D00FCCFCB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14252B4025D12FA100FCCFCB /* UIButton+Design.swift */,
+				14252B5225D1452300FCCFCB /* UIView+design.swift */,
+				1427B1FC25D1991900B06C40 /* UITextField+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		14252B4925D142F200FCCFCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14252B4A25D1434F00FCCFCB /* SignUpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14252B0325D1135500FCCFCB /* Brainify 1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14252B2E25D1135600FCCFCB /* Build configuration list for PBXNativeTarget "Brainify 1.1" */;
+			buildPhases = (
+				14252B0025D1135500FCCFCB /* Sources */,
+				14252B0125D1135500FCCFCB /* Frameworks */,
+				14252B0225D1135500FCCFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brainify 1.1";
+			productName = "Brainify 1.1";
+			productReference = 14252B0425D1135500FCCFCB /* Brainify 1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14252B1925D1135600FCCFCB /* Brainify 1.1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14252B3125D1135600FCCFCB /* Build configuration list for PBXNativeTarget "Brainify 1.1Tests" */;
+			buildPhases = (
+				14252B1625D1135600FCCFCB /* Sources */,
+				14252B1725D1135600FCCFCB /* Frameworks */,
+				14252B1825D1135600FCCFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14252B1C25D1135600FCCFCB /* PBXTargetDependency */,
+			);
+			name = "Brainify 1.1Tests";
+			productName = "Brainify 1.1Tests";
+			productReference = 14252B1A25D1135600FCCFCB /* Brainify 1.1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14252B2425D1135600FCCFCB /* Brainify 1.1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14252B3425D1135600FCCFCB /* Build configuration list for PBXNativeTarget "Brainify 1.1UITests" */;
+			buildPhases = (
+				14252B2125D1135600FCCFCB /* Sources */,
+				14252B2225D1135600FCCFCB /* Frameworks */,
+				14252B2325D1135600FCCFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14252B2725D1135600FCCFCB /* PBXTargetDependency */,
+			);
+			name = "Brainify 1.1UITests";
+			productName = "Brainify 1.1UITests";
+			productReference = 14252B2525D1135600FCCFCB /* Brainify 1.1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14252AFC25D1135500FCCFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					14252B0325D1135500FCCFCB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					14252B1925D1135600FCCFCB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 14252B0325D1135500FCCFCB;
+					};
+					14252B2425D1135600FCCFCB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 14252B0325D1135500FCCFCB;
+					};
+				};
+			};
+			buildConfigurationList = 14252AFF25D1135500FCCFCB /* Build configuration list for PBXProject "Brainify 1.1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14252AFB25D1135500FCCFCB;
+			productRefGroup = 14252B0525D1135500FCCFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14252B0325D1135500FCCFCB /* Brainify 1.1 */,
+				14252B1925D1135600FCCFCB /* Brainify 1.1Tests */,
+				14252B2425D1135600FCCFCB /* Brainify 1.1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14252B0225D1135500FCCFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14252B1425D1135600FCCFCB /* LaunchScreen.storyboard in Resources */,
+				14252B1125D1135600FCCFCB /* Assets.xcassets in Resources */,
+				14252B0F25D1135500FCCFCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14252B1825D1135600FCCFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14252B2325D1135600FCCFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14252B0025D1135500FCCFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14252B4B25D1434F00FCCFCB /* SignUpViewController.swift in Sources */,
+				14252B3B25D11CB900FCCFCB /* custombutton.swift in Sources */,
+				14252B0C25D1135500FCCFCB /* ViewController.swift in Sources */,
+				14252B0825D1135500FCCFCB /* AppDelegate.swift in Sources */,
+				14252B4125D12FA100FCCFCB /* UIButton+Design.swift in Sources */,
+				1427B1FD25D1991900B06C40 /* UITextField+extension.swift in Sources */,
+				14252B5325D1452300FCCFCB /* UIView+design.swift in Sources */,
+				14252B0A25D1135500FCCFCB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14252B1625D1135600FCCFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14252B1F25D1135600FCCFCB /* Brainify_1_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14252B2125D1135600FCCFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14252B2A25D1135600FCCFCB /* Brainify_1_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14252B1C25D1135600FCCFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14252B0325D1135500FCCFCB /* Brainify 1.1 */;
+			targetProxy = 14252B1B25D1135600FCCFCB /* PBXContainerItemProxy */;
+		};
+		14252B2725D1135600FCCFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14252B0325D1135500FCCFCB /* Brainify 1.1 */;
+			targetProxy = 14252B2625D1135600FCCFCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14252B0D25D1135500FCCFCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14252B0E25D1135500FCCFCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14252B1225D1135600FCCFCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14252B1325D1135600FCCFCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14252B2C25D1135600FCCFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14252B2D25D1135600FCCFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14252B2F25D1135600FCCFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R95RAH84WH;
+				INFOPLIST_FILE = "Brainify 1.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccny.nyu.sd4.Brainify-1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14252B3025D1135600FCCFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R95RAH84WH;
+				INFOPLIST_FILE = "Brainify 1.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccny.nyu.sd4.Brainify-1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14252B3225D1135600FCCFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R95RAH84WH;
+				INFOPLIST_FILE = "Brainify 1.1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccny.nyu.sd4.Brainify-1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainify 1.1.app/Brainify 1.1";
+			};
+			name = Debug;
+		};
+		14252B3325D1135600FCCFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R95RAH84WH;
+				INFOPLIST_FILE = "Brainify 1.1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccny.nyu.sd4.Brainify-1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainify 1.1.app/Brainify 1.1";
+			};
+			name = Release;
+		};
+		14252B3525D1135600FCCFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R95RAH84WH;
+				INFOPLIST_FILE = "Brainify 1.1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccny.nyu.sd4.Brainify-1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brainify 1.1";
+			};
+			name = Debug;
+		};
+		14252B3625D1135600FCCFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R95RAH84WH;
+				INFOPLIST_FILE = "Brainify 1.1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccny.nyu.sd4.Brainify-1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brainify 1.1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14252AFF25D1135500FCCFCB /* Build configuration list for PBXProject "Brainify 1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14252B2C25D1135600FCCFCB /* Debug */,
+				14252B2D25D1135600FCCFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14252B2E25D1135600FCCFCB /* Build configuration list for PBXNativeTarget "Brainify 1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14252B2F25D1135600FCCFCB /* Debug */,
+				14252B3025D1135600FCCFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14252B3125D1135600FCCFCB /* Build configuration list for PBXNativeTarget "Brainify 1.1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14252B3225D1135600FCCFCB /* Debug */,
+				14252B3325D1135600FCCFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14252B3425D1135600FCCFCB /* Build configuration list for PBXNativeTarget "Brainify 1.1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14252B3525D1135600FCCFCB /* Debug */,
+				14252B3625D1135600FCCFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14252AFC25D1135500FCCFCB /* Project object */;
+}
